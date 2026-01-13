@@ -4,6 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+
+
+
+/*
+* тут кароч коммент....... вот
+*/
+
+
+
 public class LoginPage extends BasePage {
     private final By loginField = By.xpath("//*[@id='user-name']");
     private final By passwordField = By.cssSelector("[data-test='password']");
